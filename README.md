@@ -76,6 +76,6 @@
 -- JOIN products p ON w.warehouseCode = p.warehouseCode
 -- JOIN orderdetails od ON p.productCode = od.productCode
 -- JOIN orders o ON od.orderNumber = o.orderNumber
-# Helps identify warehouses with large inventory but low sales (inefficiency).
 -- GROUP BY w.warehouseCode, w.warehouseName
 -- ORDER BY total_revenue ASC, total_stock DESC;
+# Helps identify warehouses with large inventory but low sales (inefficiency).
